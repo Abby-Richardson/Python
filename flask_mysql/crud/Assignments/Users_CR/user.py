@@ -24,7 +24,6 @@ class User:
             all_users.append(user_instance) # adds instance to list of instances
         return all_users #returns list of user instances
 
-
     @classmethod
     def create(cls, data ):
         query = "INSERT INTO users (first_name, last_name, email) VALUES (%(first_name)s, %(last_name)s, %(email)s);"

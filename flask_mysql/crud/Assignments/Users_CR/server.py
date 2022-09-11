@@ -3,7 +3,6 @@ from user import User
 app = Flask(__name__)
 # import the class from user.py
 
-
 @app.route("/")
 def index():
     # call the get all classmethod to get all users
